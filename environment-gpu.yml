@@ -1,0 +1,26 @@
+name: mon-projet-faiss
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.23
+  - pandas=1.5
+  - scikit-learn=1.2
+  - matplotlib
+  - tqdm
+  - spacy=3.8
+  - faiss-gpu=1.7.2
+  - cudatoolkit=11.8
+  - nbformat
+  - nbconvert
+  - pip
+  - pip:
+      - ydata-profiling==4.6.4
+      - stop-words
+      - nltk
+      - beautifulsoup4
+      - plotly
+      - google-cloud-bigquery
+      - google-api-python-client
+      - google-auth
