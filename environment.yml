@@ -8,6 +8,8 @@ dependencies:
   - pandas=1.5
   - scikit-learn=1.2
   - matplotlib
+  - wordcloud
+  - seaborn
   - tqdm
   - spacy=3.8
   - faiss
